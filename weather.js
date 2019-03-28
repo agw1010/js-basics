@@ -30,7 +30,7 @@ function handleGeoSocces(position) {
 }
 
 function handleGeoError() {
-
+    weather.innerText = "error"
 }
 
 function askForCoords() {
